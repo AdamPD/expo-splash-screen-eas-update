@@ -15,15 +15,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "splash": {
-      "backgroundColor": "#000"
-      }
+      "supportsTablet": true
     },
     "android": {
-      "splash": {
-      "backgroundColor": "#000"
-      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
