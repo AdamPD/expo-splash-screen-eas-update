@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,22 +20,24 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#000000"
+      },
+      "package": "com.adamc4c.splashscreenbug"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "7717ed27-ee9e-45a2-abcc-c93ea4de69d3"
+        "projectId": "1b827bbe-c252-4c59-9b6d-8529e21155dd"
       }
     },
     "runtimeVersion": {
       "policy": "sdkVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/7717ed27-ee9e-45a2-abcc-c93ea4de69d3"
+      "fallbackToCacheTimeout": 20000,
+      "url": "https://u.expo.dev/1b827bbe-c252-4c59-9b6d-8529e21155dd"
     }
   }
 }
